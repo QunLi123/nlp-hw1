@@ -134,4 +134,4 @@ $$\vec{d} = \frac{1}{n}\sum_{i=1}^{n} \vec{w}_i$$
 3. BERT 在 NPU 上微调达 0.9826，训练约 1 分钟；冻结 encoder 只有 0.5182，充分说明微调的必要性；
 4. Ascend 950 的 torch_npu 存在长序列反向梯度溢出，用受控序列长度（本例 64）+ 梯度裁剪规避。
 
-代码、模型、图片均保存在服务器 `~/nlp/HW-1/`，运行说明见仓库 `README.md`。
+代码、模型、图片均保存在服务器 `~/nlp/HW-1/`，运行说明见仓库 `README.md`。完整代码与报告仓库：<https://github.com/QunLi123/nlp-hw1>

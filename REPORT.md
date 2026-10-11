@@ -108,4 +108,4 @@ NYT 自训略优（领域更贴合）。稠密表示更紧凑、天然处理 OOV
 - 图：`fig_overall.png`（总对比）、`fig_t2_tsne.png`（词向量 t-SNE）、
   `fig_t3_curve.png`（BERT 学习曲线）、`fig_t3_cm.png` + `fig_t1_*_cm.png`（混淆矩阵）
 - 产出：`bert_finetuned.pt`（微调模型）、`t2_results.json`、`t3_run_b64.log`
-- 运行说明见仓库 `README.md`。
+- 运行说明见仓库 `README.md`：<https://github.com/QunLi123/nlp-hw1>
