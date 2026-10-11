@@ -1,0 +1,33 @@
+# data (large, not committed)
+*.csv
+*.model
+glove*.txt
+glove*.zip
+
+# model checkpoints
+*.pt
+*.pth
+*.npy
+
+# logs
+*.log
+t2_v3.log
+t3_run*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# build artifacts
+*.aux
+*.toc
+*.out
+*.bbl
+*.blg
+*.synctex.gz
